@@ -8,38 +8,46 @@
     width: 200px;
     height: 200px;
     margin-top: 207px;
+    padding: 6px 6px 6px 7px;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
 }
 
 #imagem-perfil + a {
     margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+#botoes li {
+    text-align: center;
+    border: 2px solid var(--purple);
+    line-height: 49px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+#botoes li:last-of-type {
+    margin-bottom: 68px;
 }
 
 #botoes li a {
     width: 326px;
     height: 49px;
     display: block;
-    border: 2px solid var(--purple);
-    text-align: center;
-    line-height: 49px;
-    border-radius: 4px;
     font-weight: 600;
 }
 
-#botoes li a:hover {
+#botoes li:hover {
     background-color: var(--purple);
+    display: block;
+}
+
+#botoes li  a:hover {
     color: var(--body-bg-color);
 }
 
-#botoes li:first-of-type {
-    margin-top: 33px;
-}
-
-#botoes li {
-    margin-top: 16px;
-}
-
 #icones {
-    margin-top: 68px;
+
     display: flex;
     gap: 30px;
 }
